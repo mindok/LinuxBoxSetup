@@ -1,10 +1,10 @@
 # LinuxBoxSetup
 Install git:
 
-  sudo apt install git
-  git config --global user.email "email@place.com"
-  git config --global user.name "Freddy Flintstone"
-  git config --global credential.helper store
+    sudo apt install git
+    git config --global user.email "email@place.com"
+    git config --global user.name "Freddy Flintstone"
+    git config --global credential.helper store
 
 
 Install spacemacs:
