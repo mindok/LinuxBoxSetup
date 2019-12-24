@@ -48,3 +48,10 @@ Install Elixir 1.8 & make it global default
     asdf global erlang 21.2
     asdf install elixir 1.8.0
     asdf global elixir 1.8.0
+
+Visual Code
+
+    wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+    sudo apt-add-repository 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main'
+    sudo apt update
+    sudo apt install codium
