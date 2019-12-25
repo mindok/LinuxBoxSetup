@@ -55,3 +55,7 @@ Visual Code
     sudo apt-add-repository 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main'
     sudo apt update
     sudo apt install codium
+
+After Postrgres install
+
+    sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
